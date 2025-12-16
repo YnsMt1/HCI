@@ -1,19 +1,26 @@
 # HCI
 
+## Hypotheses
 
-New hypotheses:
-H1: Visual-haptic congruence has little effect on performance, mainly affecting subjective ratings.
+- **H1:** Visual–haptic congruence has little effect on performance, primarily influencing subjective ratings.
+- **H2:** Perceived haptic weight drives movement behavior:
+  - Light-feeling objects → slower, more cautious movements  
+  - Heavy-feeling objects → faster, more confident movements
+- **H3:** Mismatch asymmetry:
+  - Heavy-looking / light-feeling objects produce more corrections and overshoots than light-looking / heavy-feeling objects.
+- **H4:** Congruent visual–haptic conditions are rated as more realistic than incongruent conditions.
 
-H2: Haptic weight drives movement: light feels → slower, cautious; heavy feels → faster, confident.
+## Uploaded Files
 
-H3: Mismatch asymmetry: heavy-looking/light-feeling objects → more corrections/overshoots than light-looking/heavy-feeling.
+1. **`performance.py`**  
+   Performs performance analysis with participants combined.
 
-H4: Congruent conditions are rated more realistic than incongruent ones.
+2. **`realism.py`**  
+   Analyzes realism rating data.
 
-
-
-
-I have uploaded:
-1 - `performance.py`: Does analysis on participants combined.
-2 - `realism.py`: Does analysis on realism ratings.
-3 - `combine.py`: Combines all files into one, analyzes participant data, runs corrected statistical tests, visualizes results, and saves a summary.
+3. **`combine.py`**  
+   - Combines all data files  
+   - Analyzes participant-level data  
+   - Runs corrected statistical tests  
+   - Visualizes results  
+   - Saves a summary of the analyses
