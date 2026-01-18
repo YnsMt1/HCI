@@ -16,20 +16,21 @@ This study investigates how visuo-haptic weight congruence affects VR object man
 ## 📊 Repository Structure
 
 ├── Data/
-│ ├── P*.csv # Individual participant data files
-│ ├── ALL_TRIALS_MASTER.csv # Combined trial-level dataset
-│ └── TRIAL_LEVEL_DESCRIPTIVE_STATS.csv # Descriptive statistics
+│   ├── P*.csv                          # Individual participant data files
+│   ├── ALL_TRIALS_MASTER.csv           # Combined trial-level dataset
+│   └── TRIAL_LEVEL_DESCRIPTIVE_STATS.csv # Descriptive statistics
 │
 ├── Scripts/
-│ ├── 1_descriptive_analysis.py # Trial-level exploratory analysis
-│ ├── 2_inferential_analysis.py # Participant-level hypothesis testing
-│ └── realism.py # Realism ratings analysis
+│   ├── 1_descriptive_analysis.py       # Trial-level exploratory analysis
+│   ├── 2_inferential_analysis.py       # Participant-level hypothesis testing
+│   └── realism.py                     # Realism ratings analysis
 │
 ├── Results/
-│ ├── TRIAL_LEVEL_VISUALIZATIONS.png # All descriptive plots
-│ └── PARTICIPANT_LEVEL_RESULTS.png # Inferential results plots
+│   ├── TRIAL_LEVEL_VISUALIZATIONS.png  # All descriptive plots
+│   └── PARTICIPANT_LEVEL_RESULTS.png  # Inferential results plots
 │
-└── README.md # This file
+└── README.md                           # This file
+
 
 
 
