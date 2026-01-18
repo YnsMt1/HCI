@@ -9,8 +9,7 @@ warnings.filterwarnings('ignore')
 print("="*80)
 print("🎭 H4: SENSORY CONGRUENCE → PERCEIVED REALISM")
 print("="*80)
-print("H4: Greater visuo-haptic congruence predicts higher perceived realism")
-print("="*80)
+
 
 def load_realism_data():
     """Load realism ratings"""
@@ -379,29 +378,8 @@ def generate_final_report(df, h4_result):
     print(f"   Participants: {df['ParticipantID'].nunique()}")
     print(f"   Total ratings: {len(df)}")
     print(f"   Mean realism: {df['RealismLikert_1to7'].mean():.2f} ± {df['RealismLikert_1to7'].std():.2f}")
-    
-    print(f"\n🎯 H4 RESULT:")
-    print(f"   ✅✅✅ STRONGLY SUPPORTED")
-    print(f"   Congruent conditions rated as significantly more realistic")
     print(f"   Effect size: d = {h4_result['cohens_d']:.3f} (HUGE)")
-    print(f"   Significance: p < 0.001")
-    
-    print(f"\n💡 KEY IMPLICATIONS:")
-    print(f"   1. Manipulation check: PASSED ✅")
-    print(f"   2. Participants clearly perceived congruency differences")
-    print(f"   3. Detection accuracy: >90% (excellent)")
-    print(f"   4. Realism does NOT explain H3 performance asymmetry")
-    print(f"      → H3 is a genuine sensory-motor effect!")
-    
-    print(f"\n📝 FOR YOUR PAPER:")
-    print(f"   'To validate our manipulation, participants rated perceived realism")
-    print(f"   after each trial (1-7 Likert scale). Congruent conditions were rated")
-    print(f"   as significantly more realistic (M=6.11, SD=0.66) than incongruent")
-    print(f"   conditions (M=3.41, SD=1.25), t(862)=34.41, p<.001, d=2.71. Detection")
-    print(f"   accuracy was 91.4%, confirming participants consciously perceived the")
-    print(f"   sensory mismatch. Critically, realism ratings did not correlate with")
-    print(f"   performance metrics, indicating the H3 asymmetry reflects genuine")
-    print(f"   perceptual-motor processes rather than subjective believability.'")
+
 
 # ==================== MAIN EXECUTION ====================
 
