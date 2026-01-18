@@ -14,7 +14,7 @@ This study investigates how visuo-haptic weight congruence affects VR object man
 | **H3** | Congruent conditions will be rated as more realistic than incongruent conditions | **Strongly supported** |
 
 ## 📊 Repository Structure
-
+```text
 ├── Data/
 │   ├── P*.csv                          # Individual participant data files
 │   ├── ALL_TRIALS_MASTER.csv           # Combined trial-level dataset
@@ -30,7 +30,7 @@ This study investigates how visuo-haptic weight congruence affects VR object man
 │   └── PARTICIPANT_LEVEL_RESULTS.png  # Inferential results plots
 │
 └── README.md                           # This file
-
+```
 
 
 
