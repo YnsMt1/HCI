@@ -1,6 +1,4 @@
 # 2_inferential_analysis.py
-# Purpose: Proper inferential statistics with participant-level aggregation
-# This is the CORRECT way to test your hypotheses
 
 import pandas as pd
 import numpy as np
@@ -338,11 +336,7 @@ def generate_report(anova_results, h1_results, h2_results):
     else:
         print(f"   ❌ NOT SUPPORTED")
     
-    print("\n📝 FOR YOUR PAPER:")
-    print(f"   'We conducted a {df['participant_id'].nunique()}-participant within-subjects")
-    print(f"   experiment with {len(df)} total trials across 9 conditions (3×3 design).")
-    print(f"   Data were analyzed using repeated-measures statistical tests with")
-    print(f"   participant-level aggregation to account for repeated measures.'")
+
 
 # MAIN
 df = load_data()
