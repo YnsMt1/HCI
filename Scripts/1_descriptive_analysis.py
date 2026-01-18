@@ -1,6 +1,4 @@
 # 1_descriptive_analysis.py
-# Purpose: Exploratory trial-level analysis and visualizations
-# Note: Statistics here are DESCRIPTIVE ONLY - not for hypothesis testing
 
 import pandas as pd
 import numpy as np
@@ -311,7 +309,7 @@ def main():
     print("\n" + "="*80)
     print("✅ DESCRIPTIVE ANALYSIS COMPLETE")
     print("="*80)
-    print("\n📝 Next step: Run 2_inferential_analysis.py for hypothesis testing")
+
 
 if __name__ == "__main__":
     main()
